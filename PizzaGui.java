@@ -60,7 +60,7 @@ public class PizzaGui extends JFrame { // By the GUI we can allow users to inter
 				double doub = parseDoubleD(timeOfWork,1.0);
 				int num = parseIntI(numOfPizzaGuy,2);
 				Branch OG = new Branch(doub,num); 
-				OG.lifeGenerator("assignment4_callsData.txt");
+				OG.lifeGenerator("incoming calls dataset.txt");
 			}
 		});
 		btnNewButton.setFont(new Font("Tahoma", Font.BOLD, 18));
